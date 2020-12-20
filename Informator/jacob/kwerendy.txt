@@ -1,0 +1,9 @@
+1. CREATE TABLE zamowienia (id int NOT NULL, imie text, nazwisko text, adres_email text, liczba_choinek int, liczba_mikolajow int, liczba_reniferow int, info tinyint(1));
+
+2. ALTER TABLE zamowienia ADD PRIMARY KEY(id);
+
+3. CREATE USER klient IDENTIFIED BY 'klient123';
+
+4. GRANT INSERT ON sklep.* TO klient;
+
+5. INSERT INTO zamowienia VALUES ('1', 'Jan', 'Kowalski', 'jKowalski@poczta.pl', NULL, NULL, NULL, NULL);

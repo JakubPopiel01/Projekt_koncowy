@@ -1,0 +1,80 @@
+#baner{
+    font-family: Garamond;
+    color: white;
+    text-align: center;
+    background-color: #f5bd00;
+    padding: 10px;
+}
+#lewy{
+    font-family: Garamond;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 490px;
+    width: 25%;
+    background-color: #f5bd00;
+}
+#srodkowy{
+    font-family: Garamond;
+    color: white;
+    text-align: left;
+    background-color: #b26f26;
+    height: 490px;
+    width: 50%;
+    font-size: 25px;
+}
+#prawy{
+    font-family: Garamond;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 490px;
+    width: 25%;
+    background-color: #f5bd00;
+
+}
+#stopka{
+    font-family: Garamond;
+    color: white;
+    text-align: center;
+    background-color: #f5bd00;
+    padding: 10px;
+}
+.photo{
+    width: 200px;
+    height: 250px;
+}
+#formularz{
+    display: none;
+
+}
+#formularz.active{
+    display: block;
+}
+#kont{
+    display: flex;
+    align-items: flex-start;
+}
+.produkt
+{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #b26f26;
+}
+table
+{
+    background-color: #b26f26;
+    text-align: center;
+    font-family: Garamond;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.normalnie
+{
+    margin-top: auto;
+    margin-bottom: auto;
+
+} 
